@@ -2,9 +2,10 @@
     "name": "frontend",
     "version": "0.0.1",
     "license": "MIT",
+    "main": "./frontend/server.js",
     "scripts": {
         "ng": "ng",
-        "start": "nodemon server.js",
+        "start": "node server.js",
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
